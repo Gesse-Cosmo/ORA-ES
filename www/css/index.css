@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -24,24 +25,14 @@ body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-color:#E4E4E4;
-    background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-    background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-    background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-    background-image:-webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        color-stop(0, #A7A7A7),
-        color-stop(0.51, #E4E4E4)
-    );
+    background-image:url(../img/plano2.jpg);
+    
     background-attachment:fixed;
-    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica,'Kaushan Script',Arial, sans-serif;
     font-size:12px;
     height:100%;
     margin:0px;
     padding:0px;
-    text-transform:uppercase;
     width:100%;
 }
 
@@ -82,13 +73,14 @@ h1 {
 
 
 h2 {
-    font-size:15px;
+    font-family: 'Kaushan Script', cursive;
+    font-size:20px;
     font-weight:bold;
     margin:0px;
     overflow:visible;
-    padding:0px;
-    text-align:center;
-    margin-top: 50%;
+    padding:20px 10px 10px 10px;
+    text-align: center;
+    margin-top: 10px;
 }
 
 
@@ -169,17 +161,54 @@ nav#menu ul {
 
 
 
-nav#menu li {
-    display: inline-block;
-    background-color: green;
-    padding: 10px;
-    margin: 2px;
-    transition: background-color 0s;
+.formato {
+    position: relative;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+    background-color: rgba(65.1,79.9,100.0,.8);
+
+    
 }
 
-nav#menu li:hover{
-    background-color: #606060;
+.formato2 {
+    position: relative;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+    width: 100px;
+    background-color: rgba(65.1,79.9,100.0,.8);
 }
+
+div#margem {
+    margin-top: 50%;
+}
+
+div#margem2 {
+    margin-top: 50%;
+    margin-left: -50px;
+    margin-bottom: 10px;
+}
+
+
+/*formatação do texto*/
+
+div#texto {
+    position: relative;
+    background-color: rgba(65.1,79.9,100.0,.8);
+    color: black;
+    padding-bottom: 10px;
+    margin: 0px -20px 30px -20px;
+
+}   
+
+
+
+
+
+
 
 nav#menu h1{
     display: none;
